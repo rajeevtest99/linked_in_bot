@@ -2,7 +2,6 @@
 import time
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
 import telepot
 
 token = '5341234760:AAE9OvCDSSiuWY-itM8TQvKeEv4DpCownRA'
