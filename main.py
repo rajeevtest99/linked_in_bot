@@ -18,7 +18,7 @@ company_and_role = []
 posted = []
 
 while True:
-    url = "https://www.linkedin.com/jobs/search/?currentJobId=3004243379&f_TPR=r86400&geoId=102713980&keywords=%22data%20analyst%22&location=India&position=12&pageNum=0"
+    url = "https://www.linkedin.com/jobs/search/?currentJobId=3004243379&f_TPR=r86400&geoId=102713980&keywords=data%20analyst&location=India&position=12&pageNum=1&size=0"
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     page_no+=1
